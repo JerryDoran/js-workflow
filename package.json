@@ -4,7 +4,7 @@
   "description": "This is a starter workflow for building vanilla Javascript applications using Parcel along with Babel and Sass.",
   "main": "index.js",
   "scripts": {
-    "dev": " rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
     "build": "parcel build public/index.html --out-dir dist --public-url ./"
   },
   "keywords": [],
@@ -16,5 +16,8 @@
     "@babel/runtime-corejs2": "^7.9.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
